@@ -13,6 +13,7 @@ namespace dbgitapp
     {
         public static void Main(string[] args)
         {
+            //creating host builder
             CreateHostBuilder(args).Build().Run();
         }
 
